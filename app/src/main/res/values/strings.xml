@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Speed Math</string>
+    <string name="n_1">1</string>
+    <string name="n_2">2</string>
+    <string name="n_3">3</string>
+    <string name="n_4">4</string>
+    <string name="n_5">5</string>
+    <string name="n_6">6</string>
+    <string name="n_7">7</string>
+    <string name="n_8">8</string>
+    <string name="n_9">9</string>
+    <string name="n_0">0</string>
+    <string name="all_clear">ac</string>
+    <string name="back">Back</string>
+    <string name="beginner_level">Beginner Level</string>
+    <string name="intermediate_level">Intermediate Level</string>
+    <string name="expert_level">Expert Level</string>
+    <string name="time_up">TIME UP</string>
+    <string name="time_up_message">It\'s okay to be\n slow and study sometimes.\n\nTry to be quick\nnext Time!</string>
+    <string name="finished">FINISHED</string>
+    <string name="total_time">Total Time:</string>
+    <string name="personal_best">Personal Best:</string>
+</resources>

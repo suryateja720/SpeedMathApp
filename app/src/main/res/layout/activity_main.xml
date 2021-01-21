@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:backgroundTint="@color/grey"
+        android:background="@drawable/rounded_button_beginner"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/main_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/rounded_button_beginner"
+            android:gravity="center"
+            android:text="@string/beginner_level"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_beginner"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/rounded_button_intermediate"
+            android:gravity="center"
+            android:text="@string/intermediate_level"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_expert"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_intermediate"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/rounded_button_expert"
+            android:gravity="center"
+            android:text="@string/expert_level"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

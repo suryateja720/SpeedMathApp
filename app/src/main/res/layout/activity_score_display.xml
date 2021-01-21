@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/time_up"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBeginner"
+        android:visibility="gone">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:id="@+id/time_up_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/akronim"
+            android:text="@string/time_up"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_below="@id/time_up_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="30dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="5dp"
+            android:paddingVertical="50sp"
+            android:text="@string/time_up_message"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:paddingVertical="20sp"
+        android:visibility="visible"
+        android:id="@+id/finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBeginner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            tools:ignore="UselessParent">
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/finished_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/finished"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_marginTop="30sp"
+                android:layout_below="@id/finished_title"
+                android:id="@+id/total_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/akronim"
+                android:text="@string/total_time"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/total_time_title"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/current_time"
+                android:id="@+id/best_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/akronim"
+                android:text="@string/personal_best"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/best_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/best_time_title"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
