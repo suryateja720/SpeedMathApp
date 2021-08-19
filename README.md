@@ -1,5 +1,5 @@
 # SpeedMathApp
-=> Speed Math is a puzzle solving app which generates general arthematic puzzles to solve.
+=> Speed Math is a puzzle solving app which generates general arthematic puzzles to solve.\n
 => The basic challenges user can go through are (1) 3 Levels of Puzzles - (A) Begginer Level
                                                                           (B) Intermediate Level
                                                                           (C) Expert Level
