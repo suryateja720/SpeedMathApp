@@ -1,10 +1,11 @@
 # SpeedMathApp
-=> Speed Math is a puzzle solving app which generates general arthematic puzzles to solve.\n
-=> The basic challenges user can go through are (1) 3 Levels of Puzzles - (A) Begginer Level
-                                                                          (B) Intermediate Level
-                                                                          (C) Expert Level
-                                                (2) Time Limit according to each level
-                                                (3) Puzzle Limit according to each level
-                                                (3) Comparing Current Completion Time(CCT) & Personal Best Time(PBT)
-=> As the user selects the level, which he/she wants to play, then corresponding timer will begin.
-=> 
+1. Speed Math is a puzzle-solving app that generates general arithmetic puzzles.
+2. The basic challenges the user can go through are
+    A. 3 Levels of Puzzles -
+         a. Beginner Level
+         b. Intermediate Level
+         c. Expert Level
+   B. Time Limit according to each level
+   C. Puzzle Limit according to each level
+   D. Comparing Current Completion Time(CCT) & Personal Best Time(PBT)
+3. As the user selects the level he/she wants to play, the corresponding timer will begin.
